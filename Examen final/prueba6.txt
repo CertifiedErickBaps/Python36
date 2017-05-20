@@ -1,0 +1,10 @@
+borrego
+puma
+puma
+burro
+borrego
+burro
+puma
+burro
+borrego
+borrego

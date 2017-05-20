@@ -1,0 +1,8 @@
+manzana
+pera
+platano
+guayaba
+mango
+pera
+mango
+guayaba

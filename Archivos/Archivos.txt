@@ -1,0 +1,20 @@
+archive.readlines() #Lee todo el archivo, como una lista individial y esta separado
+ejemplo:['THE BAT\n', 'Lewis Carroll\n', '\n', 'Twinkle, twinkle, little bat\n', 
+"How I wonder what you're at!\n", 'Up above the world you fly\n', 
+'Like a tea-tray in the sky.\n']
+
+archivo.reverse() contenido completo nos lo invertira en una lista 
+lst = lst[::-1] O tambien con esta funcion y usar un for para recorrer los elementos de la lista
+
+'a, b, c'.split() nos devolvera una lista ... ['a', 'b', 'c']
+
+f.write('{0}\n.format(i)) remplaza el valor de i y hace un salto de linea
+
+'...{0:.2f}...'.format(1.2345) el 2 es para cuantos digitos decimales despues del punto
+Out[10]: '...1.23...'
+
+'...{0:.10f}...'.format(1.2345)
+Out[11]: '...1.2345000000...'
+
+'...{0:.0f}...'.format(1.2345)
+Out[12]: '...1...'

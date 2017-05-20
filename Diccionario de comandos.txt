@@ -1,0 +1,116 @@
+#Diccionario de funciones
+
+int(x)	 Convert x to an integer, truncating ﬂoats towards 0.
+int(x, b)  Convert x given in base b to an integer.
+float(x)	 Convert x to a ﬂoating-point value.
+str(x)	 Convert x to a string
+---------------------------------------------------------------------------------------
+
+range(stop)	 Begin at 0. Take steps of size 1.
+End just before stop.
+range(start, stop)	 Begin at start. Take steps of size 1.
+End just before stop.
+range(start, stop, step)  Begin at start. Take steps of size step.
+End just before stop
+
+---------------------------------------------------------------------------------------
+list(x)  Convert x to a list
+n % m  Remainder when n is divided by m
+print(..., end=s)  Print with string s at end instead of newline.
+print(..., sep=s)  Print with string s between expressions.
+
+---------------------------------------------------------------------------------------
+
+len(x)  Number of elements in x.
+min(x)  Smallest element in x.
+max(x)  Largest element in x.
+items[i] = x	 Replace items[i] with x.
+items[i:j] = newitems	 Replace items in slice with newitems.
+items[i:j:k] = newitems  Replace items in slice with newitems.
+del items[i]	 Remove items[i].
+del items[i:j]	 Remove items in slice.
+del items[i:j:k]	 Remove items in slice.
+sum(items)	 Sum of the elements in items.
+
+---------------------------------------------------------------------------------------
+
+The random module includes these functions for lists:
+choice(items)	 One random element from the items.
+shuffle(items)  Randomly shuﬄe the elements in items.
+
+---------------------------------------------------------------------------------------
+
+List Methods
+If items is a list object, these are some of the methods that may be called on it:
+items.append(x)	 Add item x to the end of items.
+items.insert(i, x)  Insert item x into items at index i.
+items.pop()	 Remove and return the last item in items.
+items.pop(i)	 Remove and return items[i].
+items.remove(x)	 Remove item x from items.
+Raises ValueError when x not in items.
+items.reverse()	 Reverse the order of the elements in items.
+items.sort()	 Sort the list items.
+
+---------------------------------------------------------------------------------------
+
+The built-in function open() gives access to ﬁles in Python:
+open(fname)	 Open ﬁle named fname in current directory.
+open(fname, "r")  Open ﬁle for reading (the default).
+open(fname, "w")  Open ﬁle for writing.
+
+File Methods
+Here are some of the methods that may be used with a ﬁle object named f:
+f.read()	 Entire contents of f as a string.
+f.readline()	 Next line from f, including the trailing newline.
+Returns empty string at end of ﬁle.
+f.readlines()  List containing all lines from f.
+f.write(s)	 Write string s to f.
+f.close()	 Close f. Called automatically by with.
+
+---------------------------------------------------------------------------------------
+
+s.split()  List of “words” in string s.     "Hello, world.".split() = ["Hello,", "world."]
+s.find(t[, start[, end]])	 First index where t is a substring in s[start:end].
+s.rfind(t[, start[, end]])  Last index where t is a substring in s[start:end].
+Return −1 if not found. Optional start, end work like slices.
+s.startswith(t)	 True if t is a preﬁx of s.
+s.endswith(t)	 True if t is a suﬃx of s.
+s.count(t)	 Number of occurrences of substring t in s.
+
+---------------------------------------------------------------------------------------
+
+These test the contents of s:
+s.isalpha()	 True if all characters in s are alphabetic.
+s.isupper()	 True if all characters in s are uppercase.
+s.islower()	 True if all characters in s are lowercase.
+s.isdigit()	 True if all characters in s are digits.
+
+---------------------------------------------------------------------------------------
+
+These each return a modiﬁed copy of s:
+s.upper()	 All uppercase.
+s.lower()	 All lowercase.
+s.capitalize()	 First letter capitalized and the rest lowercase.
+s.title()	 Each word capitalized, rest lowercase.
+s.replace(old, new)  All occurrences of substring old replaced
+by new.
+s.center(width)	 Centered in a string of width width.
+s.strip([chars])	 All chars removed from both ends.
+s.lstrip([chars])	 All chars removed from left end.
+s.rstrip([chars])	 All chars removed from right end.
+s.join(listofstrs)  Concatenate listofstrs with s between each string.
+
+---------------------------------------------------------------------------------------
+
+d[key] = value  Set value associated with key in d to value.
+d[key]	 Get value associated with key in d.
+Raises KeyError exception if key not in d.
+Some of the other operations available are:
+len(d)	 Number of items in d.
+del d[key]	 Delete entry for key in d.
+key in d	 True if key is in d.
+key not in d	 True if key is not in d.
+---------------------------------------------------------------------------------------
+break romper ciclos alv
+Return salir de la funcion y del ciclo
+----------------------------------------------------------------------------------------
